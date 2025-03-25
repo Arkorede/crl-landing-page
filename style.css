@@ -21,6 +21,7 @@ img {
   position: relative;
 }
 
+/* HEADER */
 .header {
   padding: 20px 0;
   background-color: #2e323f;
@@ -97,6 +98,8 @@ img {
   text-align: center;
   list-style-type: none;
   margin: 50px 0;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .nav__item + .nav__item {
@@ -112,16 +115,56 @@ img {
 }
 
 .nav__link--button {
-  background: #fff;
-  color: #2e323f;
-  display: inline-block;
-  padding: 0px 16px;
-  border-radius: 10em;
+  background: #a59678;
+  color: #fff;
+  padding: 4px 16px;
+  border-radius: 160px;
   height: 30px;
 }
 
 .logo {
   height: 30px;
+}
+
+/* HERO */
+.hero {
+  padding: 30px 0 50px 0;
+  background-color: #3b4050;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.hero__text h1 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.text-highlight {
+  color: #a59678;
+}
+
+.hero__cta p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
+
+.hero__cta .btn {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #a59678;
+  padding: 6px 30px;
+  border-radius: 160px;
+  display: inline-block;
 }
 
 @media (min-width: 700px) {
@@ -139,6 +182,8 @@ img {
 
   .nav__list {
     margin: 0;
+    font-size: 18px;
+    font-weight: 700;
   }
 
   .nav__item {
@@ -153,5 +198,45 @@ img {
   .row {
     display: flex;
     justify-content: space-between;
+  }
+
+  .hero {
+    padding: 80px 0 120px 0;
+  }
+
+  .hero__text {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    column-gap: 40px;
+    justify-content: space-between;
+  }
+
+  .hero__text h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .hero__cta p {
+    font-size: 22px;
+  }
+
+  .hero__cta .btn {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero__text h1 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  .hero__cta p {
+    font-size: 24px;
+  }
+
+  .hero__cta .btn {
+    font-size: 24px;
   }
 }
