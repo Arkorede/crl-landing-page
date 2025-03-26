@@ -245,6 +245,50 @@ img {
   margin-top: 20px;
 }
 
-.test {
-  border: 2px solid red;
+/* FOOTER */
+.footer {
+  padding: 65px 0 80px 0;
+  background-color: #3b4050;
+}
+
+.footer__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer__nav-section {
+  margin-top: 24px;
+}
+
+.footer__subtitle {
+  font-size: 21px;
+  font-weight: 700;
+  color: #a59678;
+  margin-bottom: 10px;
+}
+
+.footer__nav {
+  list-style-type: none;
+}
+
+.about {
+  max-width: 40%;
+}
+
+.about p,
+.footer__link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.footer__link {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
 }
