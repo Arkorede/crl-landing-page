@@ -269,6 +269,7 @@ img {
   font-weight: 700;
   color: #a59678;
   margin-bottom: 10px;
+  text-wrap: nowrap;
 }
 
 .footer__nav {
